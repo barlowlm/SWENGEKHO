@@ -1,0 +1,4 @@
+#Tue Mar 06 17:05:59 GMT 2018
+base.0=/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex

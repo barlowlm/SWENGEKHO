@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/res/values-sw600dp/template-dimens.xml",
+                    "from": {
+                        "startLines": "20,21",
+                        "startColumns": "4,4",
+                        "startOffsets": "669,737",
+                        "endColumns": "67,67",
+                        "endOffsets": "732,800"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,123",
+                        "endColumns": "67,67",
+                        "endOffsets": "118,186"
+                    }
+                }
+            ]
+        }
+    ]
+}
