@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1520355974126"
+    timestamp="1520357778499"
     token="-6292804640843241009"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -25,40 +25,40 @@
 
     <build
         build-mode="FULL"
-        timestamp="1520355958796"
+        timestamp="1520357766160"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/home/pablo/repos/SWENG_GROUP3/TFDemoModifiedArt/gradleBuild/outputs/apk/debug/TFDemoModifiedArt-debug.apk"
@@ -66,7 +66,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1520355974126"
+        timestamp="1520357778499"
         verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
