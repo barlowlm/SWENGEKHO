@@ -1,0 +1,86 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/pablo/College/sweng-group3/EkhoPaintingRecognition/gradleBuild/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/pablo/College/sweng-group3/EkhoPaintingRecognition/res/values/strings.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "13,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "791,874",
+                        "endColumns": "82,83",
+                        "endOffsets": "869,953"
+                    }
+                },
+                {
+                    "source": "/home/pablo/College/sweng-group3/EkhoPaintingRecognition/res/values/base-strings.xml",
+                    "from": {
+                        "startLines": "19,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "723,660",
+                        "endColumns": "77,62",
+                        "endOffsets": "796,718"
+                    },
+                    "to": {
+                        "startLines": "11,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "650,728",
+                        "endColumns": "77,62",
+                        "endOffsets": "723,786"
+                    }
+                },
+                {
+                    "source": "/home/pablo/College/sweng-group3/EkhoPaintingRecognition/res/values/styles.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "958",
+                        "endColumns": "94",
+                        "endOffsets": "1048"
+                    }
+                },
+                {
+                    "source": "/home/pablo/College/sweng-group3/EkhoPaintingRecognition/res/values/colors.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                },
+                {
+                    "source": "/home/pablo/College/sweng-group3/EkhoPaintingRecognition/res/values/template-dimens.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "295,365,408,452,497,540,582",
+                        "endColumns": "69,42,43,44,42,41,67",
+                        "endOffsets": "360,403,447,492,535,577,645"
+                    }
+                }
+            ]
+        }
+    ]
+}
