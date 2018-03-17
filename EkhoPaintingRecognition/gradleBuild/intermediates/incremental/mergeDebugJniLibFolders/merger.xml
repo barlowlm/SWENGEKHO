@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/pablo/College/sweng-group3/EkhoPaintingRecognition/libs"/></dataSet><dataSet config="debug"><source path="/home/pablo/College/sweng-group3/EkhoPaintingRecognition/build-types/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\libs"/></dataSet><dataSet config="debug"><source path="D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\build-types\debug\jniLibs"/></dataSet></merger>

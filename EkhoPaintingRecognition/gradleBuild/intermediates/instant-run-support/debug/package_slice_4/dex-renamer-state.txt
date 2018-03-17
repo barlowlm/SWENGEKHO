@@ -1,4 +1,0 @@
-#Tue Mar 06 17:34:35 GMT 2018
-base.0=/home/pablo/College/sweng-group3/EkhoPaintingRecognition/gradleBuild/intermediates/transforms/dexMerger/debug/4
-path.0=classes.dex
-renamed.0=classes.dex

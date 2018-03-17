@@ -16,6 +16,7 @@ package com.ekho.paintingRecognition;
  * limitations under the License.
  */
 
+import android.annotation.SuppressLint;
 import android.app.Fragment;
 import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
@@ -37,6 +38,7 @@ import com.ekho.modifiedDemo.R;
 import com.ekho.paintingRecognition.env.ImageUtils;
 import com.ekho.paintingRecognition.env.Logger;
 
+@SuppressLint("ValidFragment")
 public class LegacyCameraConnectionFragment extends Fragment {
   private Camera camera;
   private static final Logger LOGGER = new Logger();
@@ -48,6 +50,7 @@ public class LegacyCameraConnectionFragment extends Fragment {
    */
   private int layout;
 
+  @SuppressLint("ValidFragment")
   public LegacyCameraConnectionFragment(
       final Camera.PreviewCallback imageListener, final int layout, final Size desiredSize) {
     this.imageListener = imageListener;

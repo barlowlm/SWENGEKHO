@@ -16,6 +16,7 @@
 
 package com.ekho.paintingRecognition;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -62,7 +63,11 @@ import java.util.concurrent.TimeUnit;
 import com.ekho.modifiedDemo.R;
 import com.ekho.paintingRecognition.env.Logger;
 
+@SuppressLint("ValidFragment")
 public class CameraConnectionFragment extends Fragment {
+
+
+
   private static final Logger LOGGER = new Logger();
 
   /**
@@ -411,6 +416,7 @@ public class CameraConnectionFragment extends Fragment {
   /**
    * Opens the camera specified by {@link CameraConnectionFragment#cameraId}.
    */
+  @SuppressLint("MissingPermission")
   private void openCamera(final int width, final int height) {
     setUpCameraOutputs();
     configureTransform(width, height);

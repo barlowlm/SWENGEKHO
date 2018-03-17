@@ -15,6 +15,7 @@ limitations under the License.
 
 package com.ekho.paintingRecognition;
 
+import android.annotation.SuppressLint;
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.os.Trace;
@@ -71,6 +72,7 @@ public class TensorFlowImageClassifier implements Classifier {
    * @param outputName The label of the output node.
    * @throws IOException
    */
+  @SuppressLint("LongLogTag")
   public static Classifier create(
       AssetManager assetManager,
       String modelFilename,
