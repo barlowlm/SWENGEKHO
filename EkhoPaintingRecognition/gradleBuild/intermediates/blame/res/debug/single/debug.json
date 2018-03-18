@@ -1044,6 +1044,10 @@
         "source": "C:\\Users\\Owen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\41e4c75f4a552c319662e53d183082c6\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "D:\\Users\\Owen\\Project_II\\SWENG_GROUP3\\EkhoPaintingRecognition\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_display_result2.xml.flat",
+        "source": "D:\\Users\\Owen\\Project_II\\SWENG_GROUP3\\EkhoPaintingRecognition\\res\\layout\\activity_display_result2.xml"
+    },
+    {
         "merged": "D:\\Users\\Owen\\Project_II\\SWENG_GROUP3\\EkhoPaintingRecognition\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Owen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\41e4c75f4a552c319662e53d183082c6\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },

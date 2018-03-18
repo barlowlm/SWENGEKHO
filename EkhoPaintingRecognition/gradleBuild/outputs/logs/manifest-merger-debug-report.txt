@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:16:1-63:12
+ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:16:1-64:12
 MERGED from [org.tensorflow:tensorflow-android:1.7.0-rc0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.7.0-rc0.aar\4f923a4a0883008be70538fe6319d18e\AndroidManifest.xml:2:1-8:12
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\41e4c75f4a552c319662e53d183082c6\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\295c48c41ceeac8f4bf720d7cc4f0da7\AndroidManifest.xml:2:1-11:12
@@ -54,7 +54,7 @@ ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\Android
 	android:name
 		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:30:22-77
 application
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:32:5-61:19
+ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:32:5-62:19
 MERGED from [org.tensorflow:tensorflow-android:1.7.0-rc0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.7.0-rc0.aar\4f923a4a0883008be70538fe6319d18e\AndroidManifest.xml:5:5-6:19
 MERGED from [org.tensorflow:tensorflow-android:1.7.0-rc0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.7.0-rc0.aar\4f923a4a0883008be70538fe6319d18e\AndroidManifest.xml:5:5-6:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\41e4c75f4a552c319662e53d183082c6\AndroidManifest.xml:25:5-20
@@ -101,3 +101,7 @@ activity#com.ekho.modifiedDemo.MainActivity
 ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:54:9-60:20
 	android:name
 		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:54:19-47
+activity#com.ekho.modifiedDemo.DisplayResultActivity
+ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:61:9-68
+	android:name
+		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:61:19-56

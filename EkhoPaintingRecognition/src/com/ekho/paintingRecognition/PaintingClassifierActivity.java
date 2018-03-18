@@ -25,9 +25,12 @@ import android.media.ImageReader.OnImageAvailableListener;
 import android.os.SystemClock;
 import android.util.Size;
 import android.util.TypedValue;
+import android.content.Intent;
 
+import java.util.HashMap;
 import java.util.List;
 
+import com.ekho.modifiedDemo.DisplayResultActivity;
 import com.ekho.modifiedDemo.R;
 import com.ekho.paintingRecognition.env.BorderedText;
 import com.ekho.paintingRecognition.env.ImageUtils;
@@ -136,6 +139,9 @@ public class PaintingClassifierActivity extends CameraActivity implements OnImag
     frameToCropTransform.invert(cropToFrameTransform);
 
   }
+    HashMap<String, Float> data = new HashMap<String, Float>();
+    final int numberOfFrames = 20;
+    int currentFrame = 0;
 
   @Override
   protected void processImage() {
@@ -156,9 +162,49 @@ public class PaintingClassifierActivity extends CameraActivity implements OnImag
             lastProcessingTimeMs = SystemClock.uptimeMillis() - startTime;
             LOGGER.i("Detect: %s", results);
             cropCopyBitmap = Bitmap.createBitmap(croppedBitmap);
+            for (int i = 0; i < results.size(); i++)
+            {
+                String painting = results.get(i).getTitle();
+                float confidence = results.get(i).getConfidence();
+                if (data.get(painting) != null)
+                {
+                    data.put(painting, data.get(painting) + confidence);
+                }
+                else
+                {
+                    data.put(painting, confidence);
+                }
+            }
+            currentFrame++;
+            if (currentFrame == numberOfFrames)
+            {
+                currentFrame = 0;
+                String painting = null;
+                float confidence = 0;
+                for (String key : data.keySet())
+                {
+                    if (data.get(key) > confidence)
+                    {
+                        confidence = data.get(key);
+                        painting = key;
+                    }
+                }
+                data = new HashMap<String, Float>();
+                sendMessage(painting);
+            }
             readyForNextImage();
           }
         });
   }
+
+    public static final String EXTRA_MESSAGE = "com.ekho.paintingRecognition.MESSAGE";
+
+
+    public void sendMessage(String painting) {
+        Intent intent = new Intent(this, DisplayResultActivity.class);
+        intent.putExtra(EXTRA_MESSAGE, painting);
+        startActivity(intent);
+    }
+
 
 }
