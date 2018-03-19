@@ -190,7 +190,10 @@ public class PaintingClassifierActivity extends CameraActivity implements OnImag
                     }
                 }
                 data = new HashMap<String, Float>();
+                if (confidence >= (0.9*numberOfFrames))
+                {
                 sendMessage(painting);
+                }
             }
             readyForNextImage();
           }
