@@ -1,0 +1,94 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Users\\Owen\\Project_II\\SWENG_GROUP3\\TFDemoModifiedArt\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\Users\\Owen\\Project_II\\SWENG_GROUP3\\TFDemoModifiedArt\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "676",
+                        "endColumns": "54",
+                        "endOffsets": "726"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                },
+                {
+                    "source": "D:\\Users\\Owen\\Project_II\\SWENG_GROUP3\\TFDemoModifiedArt\\res\\values\\base-strings.xml",
+                    "from": {
+                        "startLines": "19,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "732,678",
+                        "endColumns": "68,52",
+                        "endOffsets": "796,726"
+                    },
+                    "to": {
+                        "startLines": "11,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "650,719",
+                        "endColumns": "68,52",
+                        "endOffsets": "714,767"
+                    }
+                },
+                {
+                    "source": "D:\\Users\\Owen\\Project_II\\SWENG_GROUP3\\TFDemoModifiedArt\\res\\values\\template-dimens.xml",
+                    "from": {
+                        "startLines": "28,24,23,22,21,20,29",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "1000,917,872,826,782,739,1071",
+                        "endColumns": "69,42,43,44,42,41,67",
+                        "endOffsets": "1065,955,911,866,820,776,1134"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "295,365,408,452,497,540,582",
+                        "endColumns": "69,42,43,44,42,41,67",
+                        "endOffsets": "360,403,447,492,535,577,645"
+                    }
+                },
+                {
+                    "source": "D:\\Users\\Owen\\Project_II\\SWENG_GROUP3\\TFDemoModifiedArt\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "674",
+                        "endColumns": "95",
+                        "endOffsets": "765"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "939",
+                        "endColumns": "94",
+                        "endOffsets": "1029"
+                    }
+                },
+                {
+                    "source": "D:\\Users\\Owen\\Project_II\\SWENG_GROUP3\\TFDemoModifiedArt\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "17,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "759,674",
+                        "endColumns": "82,83",
+                        "endOffsets": "837,753"
+                    },
+                    "to": {
+                        "startLines": "13,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "772,855",
+                        "endColumns": "82,83",
+                        "endOffsets": "850,934"
+                    }
+                }
+            ]
+        }
+    ]
+}
