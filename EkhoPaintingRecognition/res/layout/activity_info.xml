@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/return_button"
+        android:layout_width="135dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:text="return"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="62dp"
+        android:text="Hello"
+        android:textColorHighlight= "#ffffff"
+        android:textSize="18sp"
+         />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:text="Ekho uses Image Recognition and BLE Beacon technology to empower curators of galleries and museums to create a fully immersive multimedia experience that engages visitors through navigation, narration and access to your additional content. Furthermore, we collect and provide analytics on visitor behaviour and satisfaction ratings to fuel your marketing efforts."
+        android:textSize="22sp" />
+
+
+</RelativeLayout>

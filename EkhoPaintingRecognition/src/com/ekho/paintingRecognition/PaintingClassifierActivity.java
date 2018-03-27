@@ -30,7 +30,6 @@ import android.content.Intent;
 import java.util.HashMap;
 import java.util.List;
 
-import com.ekho.modifiedDemo.DisplayResultActivity;
 import com.ekho.modifiedDemo.R;
 import com.ekho.paintingRecognition.env.BorderedText;
 import com.ekho.paintingRecognition.env.ImageUtils;
@@ -190,10 +189,7 @@ public class PaintingClassifierActivity extends CameraActivity implements OnImag
                     }
                 }
                 data = new HashMap<String, Float>();
-                if (confidence >= (0.9*numberOfFrames))
-                {
                 sendMessage(painting);
-                }
             }
             readyForNextImage();
           }

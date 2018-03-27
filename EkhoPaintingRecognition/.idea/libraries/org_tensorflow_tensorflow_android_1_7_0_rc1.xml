@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.tensorflow:tensorflow-android-1.7.0-rc1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.7.0-rc1.aar/9e92cd422568e1c2a60f5cee0e85742b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.7.0-rc1.aar/9e92cd422568e1c2a60f5cee0e85742b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

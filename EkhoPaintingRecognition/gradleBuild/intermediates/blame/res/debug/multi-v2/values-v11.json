@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Users\\Owen\\Project_II\\SWENG_GROUP3\\EkhoPaintingRecognition\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "/Users/davidscolard/Desktop/EkhoPaintingRecognition/gradleBuild/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Owen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\41e4c75f4a552c319662e53d183082c6\\res\\values-v11\\values-v11.xml",
+                    "source": "/Users/davidscolard/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f4bb9ce865aa19b9ee06ea5d671fe24/res/values-v11/values-v11.xml",
                     "from": {
                         "startLines": "2,8,14,20,26,32,38,39,40,45,50,52,54,55,56,107,159",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,14 +23,14 @@
                     }
                 },
                 {
-                    "source": "D:\\Users\\Owen\\Project_II\\SWENG_GROUP3\\EkhoPaintingRecognition\\res\\values-v11\\styles.xml",
+                    "source": "/Users/davidscolard/Desktop/EkhoPaintingRecognition/res/values-v11/styles.xml",
                     "from": {
                         "startLines": "7,19,11",
                         "startColumns": "2,2,2",
-                        "startOffsets": "217,782,351",
+                        "startOffsets": "210,763,340",
                         "endLines": "9,21,17",
                         "endColumns": "10,10,10",
-                        "endOffsets": "345,948,776"
+                        "endOffsets": "336,927,759"
                     },
                     "to": {
                         "startLines": "2,57,60",

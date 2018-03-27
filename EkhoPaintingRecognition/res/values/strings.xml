@@ -16,4 +16,6 @@
 <resources>
     <string name="request_permission">This sample needs camera permission.</string>
     <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="EkhoDetails">ekho uses ble beacon and image_recognition_technology_to_empower_curators_of_galleries_and_museums_to_create_a_fully_immersive_multimedia_experience_that_engages_visitors_through_navigation_narration_and_access_to_your_additional_content_furthermore_we_collect_and_provide_analytics_on_visitor_behaviour_and_satisfaction_ratings_to_fuel_your_marketing_efforts"
+    </string>
 </resources>

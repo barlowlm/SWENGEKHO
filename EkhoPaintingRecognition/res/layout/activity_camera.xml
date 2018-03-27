@@ -20,12 +20,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context="com.ekho.paintingRecognitionameraActivity" >
+    tools:context="com.ekho.paintingRecognition.CameraActivity" >
 
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:src="@drawable/ekho_logo" />
+        android:layout_height="140dp"
+        android:src="@drawable/ekhosign" />
 </FrameLayout>

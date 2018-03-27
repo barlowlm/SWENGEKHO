@@ -34,17 +34,27 @@
         android:icon="@drawable/ekho_logo"
         android:label="@string/app_name"
         android:theme="@style/MaterialTheme">
+
+        <activity
+            android:name="com.ekho.paintingRecognition.MainActivity"
+            android:label="EKHO">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name="com.ekho.paintingRecognition.PaintingClassifierActivity"
             android:label="@string/activity_name_classification"
             android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
-        <activity android:name=".DisplayResultActivity"></activity>
+
+
+        <activity android:name="com.ekho.paintingRecognition.DisplayResultActivity" />
+        <activity android:name="com.ekho.paintingRecognition.InfoActivity"></activity>
     </application>
 
 </manifest>

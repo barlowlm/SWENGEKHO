@@ -1,99 +1,109 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:16:1-50:12
-MERGED from [org.tensorflow:tensorflow-android:1.7.0-rc0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.7.0-rc0.aar\4f923a4a0883008be70538fe6319d18e\AndroidManifest.xml:2:1-8:12
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\41e4c75f4a552c319662e53d183082c6\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\295c48c41ceeac8f4bf720d7cc4f0da7\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e72775c5fc7cf1741a4dfaa867bb9f66\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\8fb1a06172886d25713cae39e9fcc095\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\3ed0eb546576de4c0e6435d09eb0594c\AndroidManifest.xml:17:1-24:12
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:16:1-60:12
+MERGED from [org.tensorflow:tensorflow-android:1.7.0-rc1] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.7.0-rc1.aar/9e92cd422568e1c2a60f5cee0e85742b/AndroidManifest.xml:2:1-8:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f4bb9ce865aa19b9ee06ea5d671fe24/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c7f2b8deaf290685d0a8963a39a6a3fe/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/e5e67d8da32cedd1efbff6a6ddc8073c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/66e8de341fcb632c6b57cdd74a5116f0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/6ae5b0c8f0304e2345ae50abe066a806/AndroidManifest.xml:17:1-24:12
 	package
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:17:5-36
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:17:5-36
 	xmlns:android
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:16:11-69
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:16:11-69
 uses-sdk
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:19:5-21:41
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\41e4c75f4a552c319662e53d183082c6\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\41e4c75f4a552c319662e53d183082c6\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\295c48c41ceeac8f4bf720d7cc4f0da7\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\295c48c41ceeac8f4bf720d7cc4f0da7\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e72775c5fc7cf1741a4dfaa867bb9f66\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e72775c5fc7cf1741a4dfaa867bb9f66\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\8fb1a06172886d25713cae39e9fcc095\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\8fb1a06172886d25713cae39e9fcc095\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\3ed0eb546576de4c0e6435d09eb0594c\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\3ed0eb546576de4c0e6435d09eb0594c\AndroidManifest.xml:20:5-43
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:19:5-21:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f4bb9ce865aa19b9ee06ea5d671fe24/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f4bb9ce865aa19b9ee06ea5d671fe24/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c7f2b8deaf290685d0a8963a39a6a3fe/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c7f2b8deaf290685d0a8963a39a6a3fe/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/e5e67d8da32cedd1efbff6a6ddc8073c/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/e5e67d8da32cedd1efbff6a6ddc8073c/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/66e8de341fcb632c6b57cdd74a5116f0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/66e8de341fcb632c6b57cdd74a5116f0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/6ae5b0c8f0304e2345ae50abe066a806/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/6ae5b0c8f0304e2345ae50abe066a806/AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\41e4c75f4a552c319662e53d183082c6\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f4bb9ce865aa19b9ee06ea5d671fe24/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:21:9-38
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:21:9-38
 	android:minSdkVersion
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:20:9-35
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:20:9-35
 uses-permission#android.permission.CAMERA
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:23:5-65
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:23:5-65
 	android:name
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:23:22-62
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:23:22-62
 uses-feature#android.hardware.camera
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:25:5-60
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:25:5-60
 	android:name
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:25:19-57
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:25:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:26:5-70
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:26:5-70
 	android:name
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:26:19-67
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:26:19-67
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:28:5-81
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:28:5-81
 	android:name
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:28:22-78
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:28:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:29:5-75
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:29:5-75
 	android:name
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:29:22-72
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:29:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:30:5-80
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:30:5-80
 	android:name
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:30:22-77
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:30:22-77
 application
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:32:5-48:19
-MERGED from [org.tensorflow:tensorflow-android:1.7.0-rc0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.7.0-rc0.aar\4f923a4a0883008be70538fe6319d18e\AndroidManifest.xml:5:5-6:19
-MERGED from [org.tensorflow:tensorflow-android:1.7.0-rc0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.7.0-rc0.aar\4f923a4a0883008be70538fe6319d18e\AndroidManifest.xml:5:5-6:19
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\41e4c75f4a552c319662e53d183082c6\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\41e4c75f4a552c319662e53d183082c6\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\295c48c41ceeac8f4bf720d7cc4f0da7\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\295c48c41ceeac8f4bf720d7cc4f0da7\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e72775c5fc7cf1741a4dfaa867bb9f66\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e72775c5fc7cf1741a4dfaa867bb9f66\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\8fb1a06172886d25713cae39e9fcc095\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\8fb1a06172886d25713cae39e9fcc095\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\3ed0eb546576de4c0e6435d09eb0594c\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Owen\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\3ed0eb546576de4c0e6435d09eb0594c\AndroidManifest.xml:22:5-20
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:32:5-58:19
+MERGED from [org.tensorflow:tensorflow-android:1.7.0-rc1] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.7.0-rc1.aar/9e92cd422568e1c2a60f5cee0e85742b/AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.7.0-rc1] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.7.0-rc1.aar/9e92cd422568e1c2a60f5cee0e85742b/AndroidManifest.xml:5:5-6:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f4bb9ce865aa19b9ee06ea5d671fe24/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f4bb9ce865aa19b9ee06ea5d671fe24/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c7f2b8deaf290685d0a8963a39a6a3fe/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c7f2b8deaf290685d0a8963a39a6a3fe/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/e5e67d8da32cedd1efbff6a6ddc8073c/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/e5e67d8da32cedd1efbff6a6ddc8073c/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/66e8de341fcb632c6b57cdd74a5116f0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/66e8de341fcb632c6b57cdd74a5116f0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/6ae5b0c8f0304e2345ae50abe066a806/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/davidscolard/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/6ae5b0c8f0304e2345ae50abe066a806/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:35:9-41
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:35:9-41
 	android:icon
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:34:9-43
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:34:9-43
 	android:allowBackup
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:33:9-35
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:33:9-35
 	android:theme
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:36:9-45
-activity#com.ekho.paintingRecognition.PaintingClassifierActivity
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:37:9-46:20
-	android:screenOrientation
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:40:13-49
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:36:9-45
+activity#com.ekho.paintingRecognition.MainActivity
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:38:9-45:20
 	android:label
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:39:13-65
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:40:13-33
 	android:name
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:38:13-83
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:39:13-69
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:41:13-45:29
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:41:13-44:29
 action#android.intent.action.MAIN
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:42:17-69
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:42:25-66
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:42:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:44:17-77
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:43:17-77
 	android:name
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:44:27-74
-activity#com.ekho.modifiedDemo.DisplayResultActivity
-ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:47:9-68
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:43:27-74
+activity#com.ekho.paintingRecognition.PaintingClassifierActivity
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:47:9-53:20
+	android:screenOrientation
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:50:13-49
+	android:label
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:49:13-65
 	android:name
-		ADDED from D:\Users\Owen\Project_II\SWENG_GROUP3\EkhoPaintingRecognition\AndroidManifest.xml:47:19-56
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:48:13-83
+activity#com.ekho.paintingRecognition.DisplayResultActivity
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:56:9-87
+	android:name
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:56:19-84
+activity#com.ekho.paintingRecognition.InfoActivity
+ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:57:9-87
+	android:name
+		ADDED from /Users/davidscolard/Desktop/EkhoPaintingRecognition/AndroidManifest.xml:57:19-75
