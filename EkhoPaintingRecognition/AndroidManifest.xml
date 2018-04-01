@@ -35,9 +35,9 @@
         android:label="@string/app_name"
         android:theme="@style/MaterialTheme">
 
-        <activity
+    <activity
             android:name="com.ekho.paintingRecognition.MainActivity"
-            android:label="EKHO">
+            android:label="Ekho">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/davidscolard/Desktop/EkhoPaintingRecognition/gradleBuild/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "D:\\Users\\Owen\\Project_II\\SWENG_GROUP3\\EkhoPaintingRecognition\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "/Users/davidscolard/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f4bb9ce865aa19b9ee06ea5d671fe24/res/values-v14/values-v14.xml",
+                    "source": "D:\\Users\\Owen\\Project_II\\SWENG_GROUP3\\EkhoPaintingRecognition\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "2",
+                        "startOffsets": "221",
+                        "endLines": "9",
+                        "endColumns": "10",
+                        "endOffsets": "363"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "10",
+                        "endOffsets": "195"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Owen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\41e4c75f4a552c319662e53d183082c6\\res\\values-v14\\values-v14.xml",
                     "from": {
                         "startLines": "2,7,8,9,15,21,22,23,26,27",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -20,25 +39,6 @@
                         "endLines": "9,10,11,17,23,24,25,28,29,30",
                         "endColumns": "12,70,82,12,12,119,62,12,62,131",
                         "endOffsets": "471,542,625,1035,1457,1577,1640,1794,1857,1989"
-                    }
-                },
-                {
-                    "source": "/Users/davidscolard/Desktop/EkhoPaintingRecognition/res/values-v14/styles.xml",
-                    "from": {
-                        "startLines": "7",
-                        "startColumns": "2",
-                        "startOffsets": "214",
-                        "endLines": "9",
-                        "endColumns": "10",
-                        "endOffsets": "354"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "10",
-                        "endOffsets": "195"
                     }
                 }
             ]

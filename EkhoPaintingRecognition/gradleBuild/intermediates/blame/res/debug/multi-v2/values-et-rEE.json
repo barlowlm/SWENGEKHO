@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/davidscolard/Desktop/EkhoPaintingRecognition/gradleBuild/intermediates/incremental/mergeDebugResources/merged.dir/values-et-rEE/values-et-rEE.xml",
+            "outputFile": "D:\\Users\\Owen\\Project_II\\SWENG_GROUP3\\EkhoPaintingRecognition\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et-rEE\\values-et-rEE.xml",
             "map": [
                 {
-                    "source": "/Users/davidscolard/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/4f4bb9ce865aa19b9ee06ea5d671fe24/res/values-et-rEE/values-et-rEE.xml",
+                    "source": "C:\\Users\\Owen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\41e4c75f4a552c319662e53d183082c6\\res\\values-et-rEE\\values-et-rEE.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

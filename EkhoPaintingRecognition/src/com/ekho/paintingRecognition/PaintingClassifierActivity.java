@@ -161,37 +161,40 @@ public class PaintingClassifierActivity extends CameraActivity implements OnImag
             lastProcessingTimeMs = SystemClock.uptimeMillis() - startTime;
             LOGGER.i("Detect: %s", results);
             cropCopyBitmap = Bitmap.createBitmap(croppedBitmap);
-            for (int i = 0; i < results.size(); i++)
-            {
-                String painting = results.get(i).getTitle();
-                float confidence = results.get(i).getConfidence();
-                if (data.get(painting) != null)
-                {
-                    data.put(painting, data.get(painting) + confidence);
-                }
-                else
-                {
-                    data.put(painting, confidence);
-                }
-            }
-            currentFrame++;
-            if (currentFrame == numberOfFrames)
-            {
-                currentFrame = 0;
-                String painting = null;
-                float confidence = 0;
-                for (String key : data.keySet())
-                {
-                    if (data.get(key) > confidence)
-                    {
-                        confidence = data.get(key);
-                        painting = key;
-                    }
-                }
-                data = new HashMap<String, Float>();
-                sendMessage(painting);
-            }
-            readyForNextImage();
+              for (int i = 0; i < results.size(); i++)
+              {
+                  String painting = results.get(i).getTitle();
+                  float confidence = results.get(i).getConfidence();
+                  if (data.get(painting) != null)
+                  {
+                      data.put(painting, data.get(painting) + confidence);
+                  }
+                  else
+                  {
+                      data.put(painting, confidence);
+                  }
+              }
+              currentFrame++;
+              if (currentFrame == numberOfFrames)
+              {
+                  currentFrame = 0;
+                  String painting = null;
+                  float confidence = 0;
+                  for (String key : data.keySet())
+                  {
+                      if (data.get(key) > confidence)
+                      {
+                          confidence = data.get(key);
+                          painting = key;
+                      }
+                  }
+                  data = new HashMap<String, Float>();
+                  if (confidence >= (0.9*numberOfFrames))
+                  {
+                      sendMessage(painting);
+                  }
+              }
+              readyForNextImage();
           }
         });
   }
